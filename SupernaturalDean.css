@@ -554,22 +554,27 @@ img[src$="gold.png"] {
 	z-index: 1;
 	pointer-events: none;
 }
-/* Base Box Style /
-.expanding-box {
-    width: 300px;
-    height: 50px;
-    background-color: #7b337d;
-    color: white;
-    padding: 10px;
-    overflow: hidden; / Hides content until hovered /
-    transition: height 0.5s ease; / Smooth animation /
-    cursor: pointer;
+.boxcontainer {
+  display: flex;
+  gap: 5px;
 }
+.box1, .box2 {
+  width: 500px; /* Adjust width as needed */
+  height: 90px;
+  overflow: hidden;
+  transition: height 0.3s ease;
+    background: #000
+}
+.box1:hover, .box2:hover {
+  height: auto; /* Expanded height */
+}   
 
-/ Expanded Style on Hover /
 .expanding-box:hover {
-    height: 200px; / Expand to this height */
-}
+    max-height: auto-flow; /* Expanded height on hover */
+    overflow: auto;
+    background-color: #000;
+    border-color: #999;
+}   
 
 /* Copyright, Terms of Service, CoC, etc. */
 div.container.footer.center.white.visible-lg.visible-md.visible-sm,
