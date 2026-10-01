@@ -22,12 +22,12 @@ body {
 
 /* Lioden Logo Replacement */
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-  content: url("https://i.img-den.com/1046/Untitled425_20260921192820_1790048190.png") !important;
+  content: url("https://i.img-den.com/1046/1000074149-removebg-preview.png") !important;
   width: 220px !important;
-  height: 100px !important;
+  height: 250px !important;
     position: relative;
-    left: 10%;
-    top: -25%;
+    left: %;
+    top: -290%;
 }
 
 /* Ignore */
@@ -554,6 +554,30 @@ img[src$="gold.png"] {
 	z-index: 1;
 	pointer-events: none;
 }
+.Box3 {
+    background: rgba(0,0,0,0.85);
+    color: #fff;
+    border: none;
+    border-radius: 0px;
+    margin: 5px;
+    padding: 15px;
+
+    width: calc(100% - 10px);
+    height: 80px;
+
+    float: none;
+    clear: both;
+    box-sizing: border-box;
+
+    text-align: center;
+    overflow: hidden;
+
+    transition: 0.6s ease;
+}
+.Box3:hover {
+    height: 200px;
+    overflow: auto;
+}
 .boxcontainer {
   display: flex;
   gap: 5px;
@@ -575,7 +599,14 @@ img[src$="gold.png"] {
     background-color: #000;
     border-color: #999;
 }   
-
+/*Cursor*/
+@media screen and (min-width: 768px) {
+    * {
+        cursor: url('https://i.img-den.com/1046/Untitled426_20260930201311.png'), auto !important;
+    }}
+body a, body button, body [type='button'], body input[type='reset'], body input[type='submit'], body [role="button"], ::-webkit-search-cancel-button, ::-webkit-search-decoration, ::-webkit-scrollbar-button, ::-webkit-file-upload-button, body .custom-cursor-hover {
+    cursor: url(https://i.img-den.com/1046/Untitled426_20260930201057.png) 10 0, pointer !important;
+}
 /* Copyright, Terms of Service, CoC, etc. */
 div.container.footer.center.white.visible-lg.visible-md.visible-sm,
 div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
