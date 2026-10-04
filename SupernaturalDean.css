@@ -167,33 +167,33 @@ input.floatright:hover {
  background: rgba(0,0,0,.8) !important;
   border: solid !important;
   border-radius: 0px !important;
-  color: #4e4e4e !important;
+  color: #fff !important;
 }
 
 
 /* Switch Account Button*/
 button.button,
 button.button:hover {
-  background: rgba(57, 21, 79,0.6) !important;
+  background: rgba(0,0,0,0.6) !important;
   border: none !important;
   border-radius: 3px !important;
   text-shadow: none !important;
-  color: #ffee00 !important;
+  color: #fff !important;
 }
 
 /* Warnings (Lions leaving soon, Hungry Lions, Not Nested,came back from Patrolling, finished Hunting) */
 .alert,
 .alert-warning,
 .alert-danger {
-  background: rgba(96, 51, 125,01) !important;
+  background: rgba(0,0,0,01) !important;
   border: none !important;
-  color: #ffee00 !important;
+  color: #fff !important;
   border-radius: 4px !important;
 }
 
 /*Header 1 ('___'s Den) */
 h1 {
-  color: #ffee00 !important;
+  color: #fff !important;
    text-shadow:-2px -2px 2px #000  !important;
   font-size: 43px !important;
   text-align: center !important;
@@ -202,14 +202,14 @@ h1 {
 
 /* Small Header (King Dynasty, Pride Dynasty, Achievements, etc) */
 h3 {
-  color:rgba(255, 238, 0,.8) !important;
+  color:rgba(255, 255, 255,.8) !important;
 }
 
 
 /* Red Notification Button when you get a New Message */
 .badge {
-  background: rgba(57, 21, 79,.8) !important;
-  color: #ffee00 !important;
+  background: rgba(0,0,0,.8) !important;
+  color: #fff !important;
   font-size: 11px;
   text-align: center !important;
   padding: 3px 7px 3px 5px !important;
@@ -218,8 +218,8 @@ h3 {
 
 /* Panels on the Right */
 .panel {
-  background: rgba(57, 21, 79,.8) !important;
-    color: #d390e2 !important;
+  background: rgba(0,0,0,.8) !important;
+    color: #fff !important;
 box-shadow: none !important;
 border: none !important;
 border-radius: 4px !important;
@@ -228,7 +228,7 @@ border-radius: 4px !important;
 
 /* Panel Headers */
 .sidebar h3 {
-  color: #ffee00 !important;
+  color: #fff !important;
   font-size: 26px !important;
   font-family: "Crimson Text", serif !important;
 }
@@ -236,42 +236,42 @@ border-radius: 4px !important;
 
 /* Even Numbered Messages */
 .s-chat-message:nth-child(even) {
-  background: rgba(218,217,215,0.2) !important;
-  color: #ffee00 !important;
+  background: rgba(0,0,0,0.2) !important;
+  color: #fff !important;
   border: none !important
 }
 
 
 /* Odd Numbered Messages */
 .s-chat-message:nth-child(odd)  {
-  background: rgba(195,194,190,0.2) !important;
-  color: #ffee00 !important;
+  background: rgba(32, 32, 32,0.2) !important;
+  color: #fff !important;
   border: none !important
 }
 
 
 /* Pinned Message */
 .s-chat-message__pinned {
-  background: rgba(195,194,190,0.3) !important;
-  color: #ffee00 !important;
+  background: rgba(0,0,0,0.3) !important;
+  color: #fff !important;
   border: none !important
 }
 
 
 /* Pings (@ messages) */
 #chatMessageList[data-pings="enabled"] .s-chat-message_mention {
-  background-color: rgba(36, 10, 52,0.4) !important;
+  background-color: rgba(32, 32, 32,0.4) !important;
   border-left: none;
 }
 
 /* Timestamps */
 .s-chat-message_timestamp {
-  color: #ffee00 !important;
+  color: #d1d1d1 !important;
 }
 
 /* BG of Chatbox */
 html.nolayout body {
-background: rgba(57, 21, 79,.8) !important
+background: rgba(81, 81, 81,.8) !important
 }
 
 /* Container BEHIND Edit your Details*/
