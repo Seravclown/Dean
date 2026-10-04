@@ -44,14 +44,14 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #aa6ab8 !important;
+  background: #000 !important;
   width: 15px !important;
 }
 
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #90559d;
+  background: #333333;
   border-radius: 0px !important;
   width: 15px !important;
 }
@@ -59,7 +59,7 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #90559d;
+  background: #333333;
   border-radius: 0px !important;
 }
 
@@ -71,19 +71,19 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
   background-position: center !important;
   -webkit-background-size: cover !important;
   background-size: cover !important;
-    border: dotted;
+    border: none;
   border-radius: 0px;
 }
 
 /* Big Bar (Den, Crossroads, Hoard, etc) */
 .navbar {
-	background: rgba(96, 51, 125,.8) !important;
+	background: rgba(0,0,.8) !important;
 	border: none !important;		
 }
 
 /* Big Bar Text Stuff */
 .navbar li a {
-	color: #ffee00 !important;
+	color: #4e4e4e !important;
 	font-size: 20px !important;
 	transition: 0.5s !important;
 }
@@ -91,7 +91,7 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 /* Big Bar on Hover */
 .navbar li a:hover, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle {
   background: none !important;
-	color: #94908d !important;
+	color: #fff !important;
 	border-radius: 10px !important;
     border: none !important;
 }
@@ -99,43 +99,43 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 
 /* Bar at the Top (Welcome back, ___) */
 .topbar {
-  background: rgba(96, 51, 125,.8) !important;
-  color: #000 !important;
+  background: rgba(0, 0, 0,.8) !important;
+  color: #fff !important;
   border: none;
 }
 
 /* Comment Box */
 #commentBox {
- background: rgba(96, 51, 125,.65) !important;
+ background: rgba(0,0,0,.65) !important;
   color: #fff !important;
   border: solid !important;
-border-color: #fff !important;
+border-color: #000 !important;
   border-radius: 8px !important;
 }
 
 /* "Post" Button under the Comment Box */
 #postComment {
-  background: #60337d !important;
+  background: #4e4e4e !important;
 }
 
 /* Small Bar below Navbar (Home / ___s Den) */
 .breadcrumb {
-  background: rgba(96, 51, 125,.4) !important;
+  background: rgba(0,0,0,.4) !important;
   border: none;
-  color: #ffee00 !important;
+  color: #fff !important;
   border-radius: 4px !important;
 }
 
 
 /* Color of the ___s Den Text IN the breadcrumb */
 .breadcrumb .active {
-  color: #ffee00 !important;
+  color: #fff !important;
 }
 
 /* Credits */
 .breadcrumb::after {
   content: "Template by WAS #387866 || CSS by Sera #530814";
-  color: #ffee00 !important;
+  color: #fff !important;
   position: absolute;
   right: 13%;
   z-index: 100
@@ -164,10 +164,10 @@ border-color: #fff !important;
 /* Bookmark Button*/
 input.floatright,
 input.floatright:hover {
- background: rgba(57, 21, 79,.8) !important;
+ background: rgba(0,0,0,.8) !important;
   border: solid !important;
   border-radius: 0px !important;
-  color: #ffee00 !important;
+  color: #4e4e4e !important;
 }
 
 
