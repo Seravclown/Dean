@@ -568,6 +568,8 @@ img[src$="gold.png"] {
 	z-index: 1;
 	pointer-events: none;
 }
+
+
 .Box3 {
     background: rgba(0,0,0,0.85);
     color: #fff;
@@ -592,27 +594,48 @@ img[src$="gold.png"] {
     height: 200px;
     overflow: auto;
 }
-.boxcontainer {
-  display: flex;
-  gap: 5px;
-}
-.box1, .box2 {
-  width: 500px; /* Adjust width as needed */
-  height: 90px;
-  overflow: hidden;
-  transition: height 0.3s ease;
-    background: #000
-}
-.box1:hover, .box2:hover {
-  height: auto; /* Expanded height */
-}   
+.Box1,
+.Box2 {
+    background: rgba(0,0,0,0.85);
+    color: #fff;
+    border: none;
+    border-radius: 0px;
+    margin: 5px;
+    padding: 15px;
 
-.expanding-box:hover {
-    max-height: auto-flow; /* Expanded height on hover */
+    height: 80px;
+    width: calc(50% - 10px);
+
+    box-sizing: border-box;
+    overflow: hidden;
+
+    transition: 0.6s ease;
+}
+
+
+/ LEFT BOX /
+
+.Box1 {
+    float: left;
+}
+
+
+/ RIGHT BOX /
+
+.Box2 {
+    float: right;
+}
+
+
+/ BOTH BOTTOM BOXES EXPAND */
+
+.Box1:hover,
+.Box2:hover {
+    height: 200px;
     overflow: auto;
-    background-color: #000;
-    border-color: #999;
-}   
+}
+
+
 /* Copyright, Terms of Service, CoC, etc. */
 div.container.footer.center.white.visible-lg.visible-md.visible-sm,
 div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
@@ -627,7 +650,6 @@ div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
     display: block !important;
   }
 }
-
 
 @media only screen and (max-width: 767px) {
   .container.main .hidden-xs {
