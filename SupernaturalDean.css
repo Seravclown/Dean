@@ -541,7 +541,7 @@ img[src$="gold.png"] {
   width: 20px !important;
 }
 /* pagedoll */
-.container.main::after {
+.container.main::before {
 	 content: "";
     background-image: url('https://i.img-den.com/1046/deannendroid-removebg-preview.png');
     background-size: cover;
@@ -550,6 +550,20 @@ img[src$="gold.png"] {
     height:300px;
     width:200px;
 	right:0px;
+    bottom: -5rem;
+	z-index: 1;
+	pointer-events: none;
+}
+/* pagedoll2 */
+.container.main::after {
+	 content: "";
+    background-image: url('https://i.img-den.com/1046/sam_fbi_funko_pop-Photoroom.png');
+    background-size: cover;
+    position: fixed;
+	display: block;
+    height:300px;
+    width:200px;
+	right:1350px;
     bottom: -5rem;
 	z-index: 1;
 	pointer-events: none;
