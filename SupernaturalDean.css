@@ -591,7 +591,7 @@ img[src$="gold.png"] {
     transition: 0.6s ease;
 }
 .Box3:hover {
-    height: 200px;
+    height: auto;
     overflow: auto;
 }
 .Box1,
@@ -631,7 +631,7 @@ img[src$="gold.png"] {
 
 .Box1:hover,
 .Box2:hover {
-    height: 200px;
+    height: auto;
     overflow: auto;
 }
 
