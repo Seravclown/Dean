@@ -502,11 +502,11 @@ img[src$="prideoverviewbanner.png"] {
 
 /* Unsorted */
 img[src$="unsortedlionsbanner.png"] {
-  background: url('https://i.img-den.com/1046/7fcfe547afaa548de05c39433366af32__1___2_.jpg') !important;
+  background: url('https://i.img-den.com/1046/7fcfe547afaa548de05c39433366af32__1___5_.jpg') !important;
   height: 100px !important;
   width 260px !important;
   padding-left: 100%;
-  background-position: 0% 0% !important;
+  background-position: 90% 20% !important;
   background-size: 100%;
 }
 
